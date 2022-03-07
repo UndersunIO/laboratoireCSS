@@ -1,0 +1,39 @@
+/* Titre de niveau un en bleu violet */
+h1 {
+    color: blueviolet;
+}
+/* Enlever le style par defaut des items de la liste (puce) */
+li {
+    list-style-type: none;
+  }
+
+
+/* paragraphe ET item de liste en rouge */
+p, li {
+    color: red;
+}
+
+
+  /* La classe a le dessus sur les balise html en css
+  l'item ayant cette classe(class) seront vert et gras */
+.cssClass {
+    color: green;
+    font-weight: bold;
+  }
+/*
+Fait la meme chose mais en bleu pour montrer que cette facon a lascendant sur la class simple
+ici la combinaison de balise HMTL et de class rend le texte en bleu et gras
+*/
+li.cssClass {
+    color: black;
+    font-weight: bold;
+  }
+/* Tout les mot mis en valeur dans li seront violet */
+  li em {
+    color: rebeccapurple;
+  }
+
+  /* le prochain paragraphe juste apres un h1 sera 2x plus gros */
+  h1 + p {
+    font-size: 200%;
+  }
