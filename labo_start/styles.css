@@ -13,7 +13,6 @@ p, li {
     color: red;
 }
 
-
   /* La classe a le dessus sur les balise html en css
   l'item ayant cette classe(class) seront vert et gras */
 .cssClass {
@@ -37,3 +36,18 @@ li.cssClass {
   h1 + p {
     font-size: 200%;
   }
+
+/* change la couleur du lien de a */
+a:link {
+    color: rgb(167, 8, 127);
+}
+
+/* change la couleur du lien de a, une fois visiter */
+a:visited {
+    color: grey;
+}
+/* Enleve la ligne du lien quand on survole sur l'element a avec la souris */
+a:hover {
+    text-decoration: none;
+}
+    
